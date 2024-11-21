@@ -28,7 +28,7 @@ The Raydium Sniper Bot offers a range of powerful features to enhance your tradi
 
 Ensure you have the following installed before proceeding:
 
-- Node.js (version X.X or higher)
+- Node.js (version 20.0.0 or higher)
 - npm (Node package manager)
 
 ### Installation Steps
