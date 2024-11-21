@@ -1,32 +1,42 @@
 # Raydium Sniper Bot
 
-## Contact Info
+## Contact Information
 
-Telegram: @web3wiza
-Discord: web3_wiza
+For support or inquiries regarding this project, feel free to reach out:
 
-You can always feel free to find me here for my help on other projects.
+- **Telegram**: [@web3wiza](https://t.me/web3wiza)
+- **Discord**: web3_wiza
+
+---
 
 ## Features
 
-- Snipe tokens in 1-2 seconds after Raydium token is launched
-- Available to buy at the first block with yellowstone RPC
+The Raydium Sniper Bot offers a range of powerful features to enhance your trading experience:
 
-## Usage
-1. Clone the repository
-```
-git clone https://github.com/sol-magic/solana-raydium-sniper-bot
-cd solana-raydium-sniper-bot
-```
-2. Install dependencies
-```
-npm install
-```
-3. Configure the environment variables
+- **Lookup Table (LUT) Creation**: Create a Lookup Table address either in advance or after a token is launched.
+- **Multi-Wallet Transactions**: Execute purchases using multiple wallets in a single Jito bundle transaction:
+  - **Fast Snipe Mode**: Supports transactions with up to 8 wallets.
+  - **Lazy Snipe Mode**: Supports transactions with up to 20 wallets.
+- **Rapid Token Sniping**: Acquire new tokens within 1-2 seconds after they launch on Raydium.
+- **Immediate Purchase Capability**: Ability to buy tokens at the first block using Yellowstone RPC.
 
-<!-- Rename the .env.copy file to .env and set RPC and WSS, main wallet's secret key, and jito auth keypair. -->
+---
 
-4. Run the bot
+## Getting Started
 
-```
-npm run start
+### Prerequisites
+
+Ensure you have the following installed before proceeding:
+
+- Node.js (version X.X or higher)
+- npm (Node package manager)
+
+### Installation Steps
+
+1. **Clone the Repository**
+
+   Begin by cloning the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/sol-magic/solana-raydium-sniper-bot
+   cd solana-raydium-sniper-bot
